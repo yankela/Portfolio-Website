@@ -1,0 +1,197 @@
+*{
+  text-decoration: none;
+}
+
+p {
+  font-family: bebas;
+  font-size: 50px;
+  margin: 15em 0 0 8em;
+}
+.rectangle {
+  height: auto;
+  margin: 7em 0 0 2.9em;
+}
+
+.rectangle img {
+  width: 360px;
+  height: auto;
+
+}
+
+.rectangle2 {
+  margin: -16.2em 0em 0em 27.2em;
+}
+
+.rectangle2 img {
+  width: 360px;
+  height: auto;
+}
+
+.rectangle3 {
+  margin: -16.2em 0 0 51.48em;
+}
+
+.rectangle3 img {
+  width: 360px;
+  height: auto;
+}
+
+.bio {
+  top: 8.3em;
+  left: 1em;
+  right: 16em;
+}
+
+.pic {
+  top: 2.5em;
+  left: 1.2em;
+}
+
+.hi {
+  top: -.3em;
+  left: 4.5em;
+}
+
+.name {
+  top: 4.4em;
+}
+
+.miami i {
+  font-size: 80px;
+  margin: -10em .2em 5em .8em;
+}
+
+.area i {
+  font-size: 80px;
+  margin: 0 .2em; 0 0;
+}
+.miami {
+  font-size: 70px;
+  top: 1.54em;
+  left: 12.5em;
+}
+
+.florida {
+  top: 2.3em;
+  font-size: 80px;
+  right: .7em;
+}
+
+.area {
+  top: 4.6em;
+  font-size: 60px;
+  right: 2.2em;
+}
+
+.phone {
+  top: 5.4em;
+  font-size: 63px;
+
+}
+
+.email {
+  top: 16.7em;
+  font-size: 25px;
+  right: 2.7em;
+}
+
+.at {
+  top: 6.28em;
+  font-size: 65px;
+  right: 4.1em;
+
+}
+
+.gmail {
+  top: 18em;
+  font-size: 25px;
+  right: 5.9em;
+}
+
+span {
+  font-family: bebas;
+  font-size: 50px;
+  position: absolute;
+  bottom: 1em;
+  top: 1em;
+  left: 1em;
+  right: 1em;
+
+}
+
+.general_info {
+  text-align: right;
+}
+
+.links {
+  margin: 32em 0 0 0em;
+  text-align: center;
+}
+
+.general_info {
+  float: right;
+  text-align: right;
+}
+
+a {
+  font-family: lato;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+
+
+h1 {
+  color: black;
+  font-family: bebas;
+  font-size: 150px;
+}
+
+h2 {
+  font-size: 70px;
+  font-family: bebas;
+  position: relative;
+}
+
+.Yankel {
+  width: 150px;
+  height: auto;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+
+h3 {
+  font-size: 12px;
+  font-family: lato;
+}
+
+h4 {
+  font-family: futura;
+  font-style: Condensed Medium;
+  font-size: 13px;
+  margin: 24.5em 0 0 0;
+}
+
+.social {
+  margin: 10em 0 0 33em;
+}
+
+.github {
+  padding-left: .5em;
+}
+
+.twitter {
+  padding-left: .5em;
+
+}
+
+.linkedin {
+  padding-left: .5em;
+}
+/*@media screen and (min-width: 600px) {
+  .general_info {
+    float: left;
+  }
+}*/
