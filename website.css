@@ -1,21 +1,16 @@
 *{
   text-decoration: none;
+
 }
 
-p {
-  font-family: bebas;
-  font-size: 50px;
-  margin: 15em 0 0 8em;
-}
 .rectangle {
   height: auto;
-  margin: 7em 0 0 2.9em;
+  margin: 29.5em 0 0 2.9em;
 }
 
 .rectangle img {
   width: 360px;
   height: auto;
-
 }
 
 .rectangle2 {
@@ -37,23 +32,23 @@ p {
 }
 
 .bio {
-  top: 8.3em;
+  top: 6.5em;
   left: 1em;
   right: 16em;
 }
 
 .pic {
-  top: 2.5em;
-  left: 1.2em;
+  top: .5em;
+  left: 1.3em;
 }
 
 .hi {
-  top: -.3em;
+  top: -2.1em;
   left: 4.5em;
 }
 
 .name {
-  top: 4.4em;
+  top: 2.5em;
 }
 
 .miami i {
@@ -67,43 +62,43 @@ p {
 }
 .miami {
   font-size: 70px;
-  top: 1.54em;
+  top: .3em;
   left: 12.5em;
 }
 
 .florida {
-  top: 2.3em;
+  top: 1.2em;
   font-size: 80px;
   right: .7em;
 }
 
 .area {
-  top: 4.6em;
+  top: 3.2em;
   font-size: 60px;
   right: 2.2em;
 }
 
 .phone {
-  top: 5.4em;
+  top: 4.07em;
   font-size: 63px;
 
 }
 
 .email {
-  top: 16.7em;
+  top: 13.5em;
   font-size: 25px;
   right: 2.7em;
 }
 
 .at {
-  top: 6.28em;
+  top: 5em;
   font-size: 65px;
   right: 4.1em;
 
 }
 
 .gmail {
-  top: 18em;
+  top: 14.8em;
   font-size: 25px;
   right: 5.9em;
 }
@@ -121,6 +116,8 @@ span {
 
 .general_info {
   text-align: right;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .links {
@@ -171,11 +168,11 @@ h4 {
   font-family: futura;
   font-style: Condensed Medium;
   font-size: 13px;
-  margin: 24.5em 0 0 0;
+  margin: 17.3em 0 0 0;
 }
 
 .social {
-  margin: 10em 0 0 33em;
+  margin: 3em 0 0 33em;
 }
 
 .github {
