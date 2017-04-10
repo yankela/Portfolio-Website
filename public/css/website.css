@@ -3,102 +3,118 @@
 
 }
 
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-        width: 100%;
-    }
-}
-
 .rectangle {
   height: auto;
   margin: 29.5em 0 0 2.9em;
+}
+.rectangle2 {
+  margin: -16.2em 0em 0em 27.2em;
+}
+.rectangle3 {
+  margin: -16.2em 0 0 51.48em;
 }
 
 .rectangle img {
   width: 360px;
   height: auto;
 }
-
-.rectangle2 {
-  margin: -16.2em 0em 0em 27.2em;
-}
-
 .rectangle2 img {
   width: 360px;
   height: auto;
 }
-
-.rectangle3 {
-  margin: -16.2em 0 0 51.48em;
-}
-
 .rectangle3 img {
   width: 360px;
   height: auto;
-}
-
-.bio {
-  top: 6.5em;
-  left: 1em;
-  right: 16em;
 }
 
 .pic {
   top: .5em;
   left: 1.3em;
 }
-
+.Yankel {
+  width: 150px;
+  height: auto;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
 .hi {
   top: -2.1em;
   left: 4.5em;
 }
-
+h1 {
+  color: black;
+  font-family: bebas;
+  font-size: 150px;
+}
 .name {
   top: 2.5em;
 }
-
-.miami i {
-  font-size: 80px;
-  margin: -10em .2em 5em .8em;
-  color: #E75D54
+h2 {
+  font-size: 70px;
+  font-family: bebas;
+  position: relative;
+  color: #E75D54;
+}
+h4 {
+  font-family: futura;
+  font-style: Condensed Medium;
+  font-size: 13px;
+  margin: 17.3em 0 0 0;
+}
+.bio {
+  top: 6.5em;
+  left: 1em;
+  right: 16em;
+}
+h3 {
+  font-size: 12px;
+  font-family: lato;
 }
 
-.area i {
-  font-size: 80px;
-  margin: 0 .2em; 0 0;
-  color: #E75D54
+.general_info {
+  text-align: right;
+  max-width: 1100px;
+  margin: 0 auto;
+  float: right;
+  text-align: right;
 }
 .miami {
   font-size: 70px;
   top: .3em;
   left: 12.5em;
 }
-
+.miami i {
+  font-size: 80px;
+  margin: -10em .2em 5em .8em;
+  color: #E75D54
+}
 .florida {
   top: 1.2em;
   font-size: 80px;
   right: .7em;
 }
-
+.area i {
+  font-size: 80px;
+  margin: 0 .2em; 0 0;
+  color: #E75D54
+}
 .area {
   top: 3.2em;
   font-size: 60px;
   right: 2.2em;
 }
-
 .phone {
   top: 4.07em;
   font-size: 63px;
 
 }
-
 .email {
   top: 13.5em;
   font-size: 25px;
   right: 2.7em;
 }
-
 .at {
   top: 5em;
   font-size: 65px;
@@ -106,7 +122,6 @@
   color: #E75D54
 
 }
-
 .gmail {
   top: 14.8em;
   font-size: 25px;
@@ -121,85 +136,19 @@ span {
   top: 1em;
   left: 1em;
   right: 1em;
-
 }
 
-.general_info {
-  text-align: right;
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-.links {
-  margin: 32em 0 0 0em;
-  text-align: center;
-}
-
-.general_info {
-  float: right;
-  text-align: right;
-}
-
-a {
-  font-family: lato;
-  font-size: 40px;
-  color: #FFFFFF;
-}
-
-
-
-h1 {
-  color: black;
-  font-family: bebas;
-  font-size: 150px;
-}
-
-h2 {
-  font-size: 70px;
-  font-family: bebas;
-  position: relative;
-  color: #E75D54;
-}
-
-.Yankel {
-  width: 150px;
-  height: auto;
-  border-top-left-radius: 50% 50%;
-  border-top-right-radius: 50% 50%;
-  border-bottom-right-radius: 50% 50%;
-  border-bottom-left-radius: 50% 50%;
-}
-
-h3 {
-  font-size: 12px;
-  font-family: lato;
-}
-
-h4 {
-  font-family: futura;
-  font-style: Condensed Medium;
-  font-size: 13px;
-  margin: 17.3em 0 0 0;
-}
 
 .social {
   margin: 3em 0 0 33em;
 }
-
 .github {
   padding-left: .5em;
 }
-
 .twitter {
   padding-left: .5em;
 
 }
-
 .linkedin {
   padding-left: .5em;
 }
-/*@media screen and (min-width: 600px) {
-  .general_info {
-    float: left;
-  }
-}*/
