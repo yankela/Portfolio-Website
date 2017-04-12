@@ -22,7 +22,7 @@
 }
 
 .intro {
-   margin: 2em 1em 2em 1em;
+  margin: 2em 1em 2em 1em;
 }
 h3 {
   margin-bottom: 2em;
@@ -30,13 +30,13 @@ h3 {
 }
 
 h4 {
-width: 100%;
+  width: 100%;
 }
 
 h1 {
   font-size: 200px;
-
 }
+
 h2 {
   font-size: 100px;
   color: #E75D54;
@@ -47,7 +47,7 @@ h2 {
   font-size: 13px;
 }
 span img {
-/*   width: 15/0px; */
+  /*   width: 15/0px; */
   height: auto;
   border-radius: 50%;
   margin: 2em 1em 0em 1em;
@@ -78,7 +78,7 @@ span img {
 .area {
   font-size: 100px;
   margin-top: -.18em;
-   margin-bottom: -.19em;
+  margin-bottom: -.19em;
   text-align: right;
   padding-right: .7em;
 }
@@ -93,6 +93,7 @@ span img {
 .phone {
   font-size: 79px;
   text-align: right;
+  color: black;
 }
 
 .email {
@@ -122,18 +123,15 @@ span img {
 
 /*SOCIAL*/
 
-@media only screen and (max-width: 980px)
-{
-.intro h1, h2, h3, h4{
-  text-align: center;
+@media only screen and (max-width: 980px) {
+  .intro h1, h2, h3, h4{
+    text-align: center;
   }
-  span img {
 
-  }
   h4 {
     padding: 0px;
   }
-   #general_info {
+  #general_info {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -143,14 +141,13 @@ span img {
     text-align: center;
     margin-top: 4em;
     margin-bottom: 2.5em;
+  }
 
-}
-
-        #buttons a img {
+  #buttons a img {
     margin: 1em 1em 1em 1em;
 
   }
-    .social {
+  .social {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -160,17 +157,16 @@ span img {
   }
 }
 
-@media only screen and (min-width: 981px)
-{
-.intro  {
-  flex-direction: column;
+@media only screen and (min-width: 981px) {
+  .intro  {
+    flex-direction: column;
   }
   h4 {
     width: 500px;
     padding-bottom: 2em;
   }
   #general_info {
-  margin-top: -28.9em;
+    margin-top: -28.9em;
 
   }
   .social {
@@ -178,15 +174,15 @@ span img {
     align-items: center;
     justify-content: center;
   }
-    .social i {
+  .social i {
     padding-right: .5em;
     padding-left: .5em;
   }
-      #buttons a img {
+  #buttons a img {
     margin: 2.5em 1em 2.5em 1em;
   }
-#buttons {
+  #buttons {
     text-align: center;
-}
+  }
 
 }
