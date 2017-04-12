@@ -1,5 +1,11 @@
+@font-face {
+  font-family: 'Bebas';
+  src: url('http://www.fontsaddict.com/fontface/bebas.TTF');
+}
+
+
 .intro h1, h2 {
-  font-family: bebas;
+  font-family: 'Bebas';
   padding: 0px;
   margin: 0px;
 }
@@ -44,7 +50,7 @@ span img {
 
 /*GENERAL INFO*/
 #general_info {
-  font-family: bebas;
+  font-family: 'Bebas';
   display: flex;
   padding: 0;
   flex-direction: column;
@@ -138,8 +144,7 @@ span img {
     justify-content: center;
   }
   .social i {
-    padding-right: .5em;
-    padding-left: .5em;
+    padding-right: 1em;
   }
 }
 
@@ -164,7 +169,7 @@ span img {
     padding-left: .5em;
   }
       #buttons a img {
-    margin: 3em 1em 3em 1em;
+    margin: 1em 1em 1em 1em;
   }
 #buttons {
     text-align: center;
