@@ -159,10 +159,10 @@ span img {
     margin-bottom: 2.5em;
   }
 
-  #buttons a img {
+  /*#buttons a img {
     margin: 1em 1em 1em 1em;
 
-  }
+  }*/
   .social {
     display: flex;
     align-items: center;
