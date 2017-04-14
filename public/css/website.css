@@ -129,9 +129,22 @@ span img {
   .intro h1, h2, h3, h4{
     text-align: center;
   }
-
+  .intro h1 img {
+    width: 135px;
+    height: auto;
+  }
+  h3 {
+    margin-top: -5em;
+  }
+  h1 {
+    font-size: 190px;
+  }
+  h2 {
+    font-size: 95px;
+  }
   h4 {
     padding: 0px;
+
   }
   #general_info {
     display: flex;
