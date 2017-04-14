@@ -43,10 +43,12 @@ h2 {
   font-family: 'Bebas';
   padding: 0px;
 }
+
 .intro h3, h4 {
   font-family: futura;
   font-size: 13px;
 }
+
 span img {
   /*   width: 15/0px; */
   height: auto;
@@ -62,7 +64,6 @@ span img {
   padding: 0;
   flex-direction: column;
   margin: 2em 1em 2em 1em;
-
 }
 
 .loc {
@@ -125,9 +126,9 @@ span img {
 /*MEDIA QUERIES*/
 
 @media only screen and (max-width: 980px) {
-  /*.intro h1, h2, h3, h4{
+  .intro h1, h2, h3, h4{
     text-align: center;
-  }*/
+  }
 
   h4 {
     padding: 0px;
@@ -159,15 +160,16 @@ span img {
 }
 
 @media only screen and (min-width: 981px) {
-  /*.intro  {
+  .intro  {
     flex-direction: column;
-  }*/
+  }
   h4 {
     width: 500px;
     padding-bottom: 2em;
   }
   #general_info {
     margin-top: -28.9em;
+
   }
   .social {
     display: flex;
