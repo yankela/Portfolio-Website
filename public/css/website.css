@@ -21,8 +21,8 @@
   margin: 2em 1em 2em 1em;
 }
 h3 {
-  margin-bottom: 2em;
-  margin-top: -.08em;
+  margin-bottom: 1em;
+  margin-top: -3em;
 }
 
 h4 {
@@ -33,7 +33,7 @@ h1 {
   font-size: 200px;
   font-family: 'Bebas';
   padding: 0px;
-  margin: 0px;
+  margin: 0;
 }
 
 h2 {
@@ -64,6 +64,7 @@ span img {
   padding: 0;
   flex-direction: column;
   margin: 2em 1em 2em 1em;
+  color: inherit;
 }
 
 .loc {
@@ -95,7 +96,7 @@ span img {
 .phone {
   font-size: 79px;
   text-align: right;
-  color: black;
+  color: inherit;
 }
 
 .email {
@@ -125,7 +126,7 @@ span img {
 
 /*MEDIA QUERIES*/
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 750px) {
   .intro h1, h2, h3, h4{
     text-align: center;
   }
@@ -159,10 +160,10 @@ span img {
     margin-bottom: 2.5em;
   }
 
-  /*#buttons a img {
+  #buttons a img {
     margin: 1em 1em 1em 1em;
+  }
 
-  }*/
   .social {
     display: flex;
     align-items: center;
@@ -173,17 +174,20 @@ span img {
   }
 }
 
-@media only screen and (min-width: 981px) {
+@media only screen and (min-width: 751px) {
   .intro  {
     flex-direction: column;
   }
   h4 {
     width: 500px;
-    padding-bottom: 2em;
+
   }
   #general_info {
-    margin-top: -28.9em;
+  margin-top: -29.5em;
+  }
 
+  h3 {
+    margin-top: -8em;
   }
   .social {
     display: flex;
@@ -195,7 +199,7 @@ span img {
     padding-left: .5em;
   }
   #buttons a img {
-    margin: 2.5em 1em 2.5em 1em;
+    margin: 8em 1em 2.5em 1em;
   }
   #buttons {
     text-align: center;
