@@ -170,7 +170,8 @@ span img {
     justify-content: center;
   }
   .social i {
-    padding-right: 1em;
+    padding-right: .5em;
+    padding-left: .5em;
   }
 }
 
